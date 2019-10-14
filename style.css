@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  background-color: #232323;
+}
+
+.header-div {
+  display: block;
+  width: 100%;
+  background-color: #4881B3;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+h1 span {
+  display: block;
+  font-size: 60px;
+}
+
+.strip {
+  display: block;
+  width: 100%;
+  margin: auto;
+  height: 30px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.msg {
+  display: inline;
+  padding: 0 8%;
+  font-size: 17px;
+  font-weight: 600;
+  color: #4881B3;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+
+button {
+  display: inline-block;
+  border: 0;
+  outline: none;
+  margin: 0;
+  padding: auto;
+  height: 100%;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  color: #4881B3;
+  letter-spacing: 1px;
+  transition: background-color .4s linear, color .4s linear;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #4881B3;
+}
+
+.selected {
+  color: #fff;
+  background-color: #4881B3;
+}
+
+main .container {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+.square {
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 20px;
+  background-color: #4881B3;
+  transition: background-color 1s ease, visibility 1s ease;
+}
